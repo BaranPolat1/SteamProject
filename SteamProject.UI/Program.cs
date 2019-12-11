@@ -16,7 +16,7 @@ namespace SteamProject.UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new GameList());
+            Application.Run(new AdminUserPage());
         }
     }
 }

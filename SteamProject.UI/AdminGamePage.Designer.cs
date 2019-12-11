@@ -52,6 +52,7 @@
             this.ofdAdd = new System.Windows.Forms.OpenFileDialog();
             this.ofdUpdate = new System.Windows.Forms.OpenFileDialog();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.txtUpdateID = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.mskUpdateRelease = new System.Windows.Forms.MaskedTextBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -69,20 +70,19 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.txtUpdateID = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.btnDelete = new System.Windows.Forms.Button();
             this.txtDelete = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.btnDelete = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.btnFind = new System.Windows.Forms.Button();
             this.txtFind = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
-            this.btnFind = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.label20 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.btnGetByDate = new System.Windows.Forms.Button();
             this.label21 = new System.Windows.Forms.Label();
@@ -304,6 +304,7 @@
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "List of Book";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // dataGridView1
             // 
@@ -343,6 +344,13 @@
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Update Game";
+            // 
+            // txtUpdateID
+            // 
+            this.txtUpdateID.Location = new System.Drawing.Point(120, 23);
+            this.txtUpdateID.Name = "txtUpdateID";
+            this.txtUpdateID.Size = new System.Drawing.Size(233, 22);
+            this.txtUpdateID.TabIndex = 28;
             // 
             // label9
             // 
@@ -500,23 +508,6 @@
             this.label15.TabIndex = 14;
             this.label15.Text = "Descreption:";
             // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(33, 65);
-            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(49, 17);
-            this.label16.TabIndex = 10;
-            this.label16.Text = "Name:";
-            // 
-            // txtUpdateID
-            // 
-            this.txtUpdateID.Location = new System.Drawing.Point(120, 23);
-            this.txtUpdateID.Name = "txtUpdateID";
-            this.txtUpdateID.Size = new System.Drawing.Size(233, 22);
-            this.txtUpdateID.TabIndex = 28;
-            // 
             // label17
             // 
             this.label17.AutoSize = true;
@@ -526,6 +517,16 @@
             this.label17.Size = new System.Drawing.Size(25, 17);
             this.label17.TabIndex = 10;
             this.label17.Text = "ID:";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(33, 65);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(49, 17);
+            this.label16.TabIndex = 10;
+            this.label16.Text = "Name:";
             // 
             // groupBox4
             // 
@@ -538,6 +539,16 @@
             this.groupBox4.TabIndex = 4;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Delete";
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Location = new System.Drawing.Point(98, 57);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(101, 28);
+            this.btnDelete.TabIndex = 29;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // txtDelete
             // 
@@ -556,16 +567,6 @@
             this.label18.TabIndex = 0;
             this.label18.Text = "ID:";
             // 
-            // btnDelete
-            // 
-            this.btnDelete.Location = new System.Drawing.Point(98, 57);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(101, 28);
-            this.btnDelete.TabIndex = 29;
-            this.btnDelete.Text = "Delete";
-            this.btnDelete.UseVisualStyleBackColor = true;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
-            // 
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.btnFind);
@@ -577,6 +578,16 @@
             this.groupBox5.TabIndex = 5;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Find By Name";
+            // 
+            // btnFind
+            // 
+            this.btnFind.Location = new System.Drawing.Point(98, 55);
+            this.btnFind.Name = "btnFind";
+            this.btnFind.Size = new System.Drawing.Size(101, 25);
+            this.btnFind.TabIndex = 29;
+            this.btnFind.Text = "Find";
+            this.btnFind.UseVisualStyleBackColor = true;
+            this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
             // 
             // txtFind
             // 
@@ -595,16 +606,6 @@
             this.label19.TabIndex = 0;
             this.label19.Text = "Name:";
             // 
-            // btnFind
-            // 
-            this.btnFind.Location = new System.Drawing.Point(98, 55);
-            this.btnFind.Name = "btnFind";
-            this.btnFind.Size = new System.Drawing.Size(101, 25);
-            this.btnFind.TabIndex = 29;
-            this.btnFind.Text = "Find";
-            this.btnFind.UseVisualStyleBackColor = true;
-            this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
-            // 
             // groupBox6
             // 
             this.groupBox6.Controls.Add(this.label20);
@@ -617,16 +618,6 @@
             this.groupBox6.Text = "Get All";
             this.groupBox6.Enter += new System.EventHandler(this.groupBox6_Enter);
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(108, 83);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(91, 29);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "Get All";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // label20
             // 
             this.label20.Location = new System.Drawing.Point(7, 18);
@@ -636,6 +627,16 @@
             this.label20.TabIndex = 7;
             this.label20.Text = "Please Cllick The Button For Access All Category";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(108, 83);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(91, 29);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "Get All";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // groupBox7
             // 

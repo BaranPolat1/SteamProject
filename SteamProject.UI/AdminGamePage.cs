@@ -162,5 +162,10 @@ namespace SteamProject.UI
             }
            
         }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

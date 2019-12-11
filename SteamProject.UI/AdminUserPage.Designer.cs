@@ -354,14 +354,14 @@
             // 
             // txtUpdateCountry
             // 
-            this.txtUpdateCountry.Location = new System.Drawing.Point(156, 282);
+            this.txtUpdateCountry.Location = new System.Drawing.Point(159, 282);
             this.txtUpdateCountry.Name = "txtUpdateCountry";
             this.txtUpdateCountry.Size = new System.Drawing.Size(172, 22);
             this.txtUpdateCountry.TabIndex = 11;
             // 
             // txtUpdateAdress
             // 
-            this.txtUpdateAdress.Location = new System.Drawing.Point(157, 252);
+            this.txtUpdateAdress.Location = new System.Drawing.Point(159, 254);
             this.txtUpdateAdress.Name = "txtUpdateAdress";
             this.txtUpdateAdress.Size = new System.Drawing.Size(172, 22);
             this.txtUpdateAdress.TabIndex = 12;
@@ -389,7 +389,7 @@
             // cmbUpdateRole
             // 
             this.cmbUpdateRole.FormattingEnabled = true;
-            this.cmbUpdateRole.Location = new System.Drawing.Point(155, 311);
+            this.cmbUpdateRole.Location = new System.Drawing.Point(160, 311);
             this.cmbUpdateRole.Margin = new System.Windows.Forms.Padding(4);
             this.cmbUpdateRole.Name = "cmbUpdateRole";
             this.cmbUpdateRole.Size = new System.Drawing.Size(173, 24);
@@ -397,7 +397,7 @@
             // 
             // mskUpdateBirthDate
             // 
-            this.mskUpdateBirthDate.Location = new System.Drawing.Point(157, 224);
+            this.mskUpdateBirthDate.Location = new System.Drawing.Point(161, 224);
             this.mskUpdateBirthDate.Mask = "00/00/0000";
             this.mskUpdateBirthDate.Name = "mskUpdateBirthDate";
             this.mskUpdateBirthDate.Size = new System.Drawing.Size(172, 22);
@@ -416,7 +416,7 @@
             // 
             // txtUpdatePassword
             // 
-            this.txtUpdatePassword.Location = new System.Drawing.Point(157, 169);
+            this.txtUpdatePassword.Location = new System.Drawing.Point(163, 169);
             this.txtUpdatePassword.Margin = new System.Windows.Forms.Padding(4);
             this.txtUpdatePassword.Name = "txtUpdatePassword";
             this.txtUpdatePassword.Size = new System.Drawing.Size(172, 22);
@@ -433,7 +433,7 @@
             // 
             // mskUpdatePhone
             // 
-            this.mskUpdatePhone.Location = new System.Drawing.Point(157, 197);
+            this.mskUpdatePhone.Location = new System.Drawing.Point(161, 198);
             this.mskUpdatePhone.Mask = "(999) 000-0000";
             this.mskUpdatePhone.Name = "mskUpdatePhone";
             this.mskUpdatePhone.Size = new System.Drawing.Size(172, 22);
@@ -441,7 +441,7 @@
             // 
             // txtUpdateEmail
             // 
-            this.txtUpdateEmail.Location = new System.Drawing.Point(157, 142);
+            this.txtUpdateEmail.Location = new System.Drawing.Point(163, 139);
             this.txtUpdateEmail.Margin = new System.Windows.Forms.Padding(4);
             this.txtUpdateEmail.Name = "txtUpdateEmail";
             this.txtUpdateEmail.Size = new System.Drawing.Size(172, 22);
@@ -449,7 +449,7 @@
             // 
             // txtUpdateUserName
             // 
-            this.txtUpdateUserName.Location = new System.Drawing.Point(157, 107);
+            this.txtUpdateUserName.Location = new System.Drawing.Point(164, 103);
             this.txtUpdateUserName.Margin = new System.Windows.Forms.Padding(4);
             this.txtUpdateUserName.Name = "txtUpdateUserName";
             this.txtUpdateUserName.Size = new System.Drawing.Size(171, 22);
@@ -457,7 +457,7 @@
             // 
             // txtUpdateLastName
             // 
-            this.txtUpdateLastName.Location = new System.Drawing.Point(158, 74);
+            this.txtUpdateLastName.Location = new System.Drawing.Point(163, 73);
             this.txtUpdateLastName.Margin = new System.Windows.Forms.Padding(4);
             this.txtUpdateLastName.Name = "txtUpdateLastName";
             this.txtUpdateLastName.Size = new System.Drawing.Size(172, 22);
@@ -465,7 +465,7 @@
             // 
             // txtUpdateID
             // 
-            this.txtUpdateID.Location = new System.Drawing.Point(157, 14);
+            this.txtUpdateID.Location = new System.Drawing.Point(161, 13);
             this.txtUpdateID.Margin = new System.Windows.Forms.Padding(4);
             this.txtUpdateID.Name = "txtUpdateID";
             this.txtUpdateID.Size = new System.Drawing.Size(174, 22);
@@ -473,7 +473,7 @@
             // 
             // txtUpdateFirstName
             // 
-            this.txtUpdateFirstName.Location = new System.Drawing.Point(158, 44);
+            this.txtUpdateFirstName.Location = new System.Drawing.Point(161, 43);
             this.txtUpdateFirstName.Margin = new System.Windows.Forms.Padding(4);
             this.txtUpdateFirstName.Name = "txtUpdateFirstName";
             this.txtUpdateFirstName.Size = new System.Drawing.Size(175, 22);
